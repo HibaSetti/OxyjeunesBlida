@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Accueil | Oxyjeunes Blida</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link rel="shortcut icon" href="fav.png">
+   
+</head><!--/head-->
+
+<body>
+
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.10";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		jQuery(document).ready(function($) {
+  $(window).bind("load resize", function(){  
+  setTimeout(function() {
+  var container_width = $('#cont').width();    
+    $('#cont').html('<div class="fb-page" ' + 
+    'data-href="http://www.facebook.com/IniciativaAutoMat"' +
+    ' data-width="' + cont_width + '" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/IniciativaAutoMat"><a href="http://www.facebook.com/IniciativaAutoMat">Auto*Mat</a></blockquote></div></div>');
+    FB.XFBML.parse( );    
+  }, 100);  
+}); 
+});
+		</script>
+ 
+    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="logo2.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                   
+                    <li class="dropdown active">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accueil<i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                          
+                            <li  id="item1"><a href="#objectif">Nos objectifs</a></li>
+                            <li id="item2"><a href="#recent-works">Nos derniers projets</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li><a href="event.html">Evénements</a></li>
+                   
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">language</i> <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                          
+                            <li><a href="indexA.html">Arabe</a></li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+    <section id="main-slider" class="no-margin ">
+        <div class="carousel slide wet-asphalt ">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="item active" style="background-image: url(images/bg1.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                               
+                               <h2 class="boxed animation animated-item-1 about_A"> كن بالناس رحيما مد يد الاحسان</h2>
+                                    <h2 class="boxed animation animated-item-2 about_A">كن عونا للناس دوما</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(images/bg3.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <div class="item" style="background-image: url(images/bg2.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1"></h2>
+                                    
+                                    
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="icon-angle-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="icon-angle-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+
+ 
+<!---***********************************ABOUT US ****************************-->
+    <section id="about-us" class="container">
+        <div class="row">
+            <div class="col-sm-6 about_us_bloc">
+                <h2>Qui sommes nous?</h2>
+                <p>Nous sommes un groupe de jeunes musulmans algériens bénévoles, étudiants de différentes spécialités et universités, nous n’avons aucune orientation politique, c’est l’amour d’autrui et notre altruisme qui nous a uni pour une société meilleure et just. <br>
+				
+				Le groupe a été fondé le 17 mars 2012 sous l’apophtegme : Sois un appui pour tes semblables, prêt  à secourir et aider autrui, sois charitable et tends ta main pour ton prochain.
+				Notre groupe se divise en deux parties complémentaires :
+				 <ul>
+				  <li>
+				 Le groupe-mère : celui qui s’intéresse aux actions sociales de charité et de bénévolat  hors de l’enceinte universitaire.
+				  </li>
+				<li>
+				Le club scientifique : il concerne le domaine scientifique, son siège exact est à la faculté de médecine de l’université Saad Dahleb Blida, il s’intéresse aux journées de sensibilisation et de prévention dans l’enceinte universitaire, il réunit des  étudiants de différents cycles et spécialités, dans le but de promouvoir l’esprit d’entraide  et de complémentarité entre les diverses facultés de l’université.
+				</li>
+				</ul>
+				Nous avons récemment fondé un groupe littéraire  dépendant du groupe scientifique pour les passionnés de l’écriture littéraire en voulant le rebond de la nation Ikraa.
+ 
+			     </p>
+            </div>
+           
+
+              <div class="cont" style="width: 100%">
+                <div class="fb-page">
+	                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FOxyjeunes-Algerie-Blida--101426399987466%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+	                </iframe>
+	             </div>
+              </div>
+           
+        </div><!--/.row-->
+	      
+</section>
+<hr class="container">
+<!--***********************************-FIN ABOUT US *********************************-->
+ <!--******************** Objectifs Section ********************-->
+    <section id="objectif">
+      <div class="container">
+        
+        <h1>Nos objectifs</h1>
+        <!-- Four columns -->
+        <div class="row">
+          <div class="span3">
+            <div class="align"> <i class="fa fa-group" style="color: #e74c3c;font-size: 0.6em;"></i> </div>
+            <h2 >Social</h2>
+            <p> Nous Visons à aider les nécissiteux et les démunis pour avoir un niveau de vie meilleur d'un coté, et pour éveiller le sentiment de fratérnité et de coopération d'un autre coté.</p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="fa fa-graduation-cap"style="color: #e74c3c;font-size: 0.6em;"></i> </div>
+            <h2 >Universitaire</h2>
+            <p >Nous Visons à sensibiliser les jeunes dans différents domaines, et developper leurs connaissances dans l'intention de..</p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="fa fa-book"style="color: #e74c3c;font-size: 0.6em;"></i> </div>
+            <h2 >Litteraires</h2>
+            <p > Nous vison à aider les jeunes à developper leurs talents dans le domaines litteraires, et pour exploiter ces dons dans le bénéfice de la société et dans le travail de bienfaisance.</p>
+          </div>
+          <!-- /.span3 -->
+          
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!--********************FIN  OBJECTIFs Section ********************-->
+   <hr class="container">
+    <section id="recent-works">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 projet">
+                    <h3>Nos dérniers projets</h3>
+                  
+                    <div class="btn-group">
+                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+                    </div>
+                    <p class="gap"></p>
+                </div>
+                <div class="col-md-9">
+                    <div id="scroller" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item1.jpg" alt="">
+                                                <h5>
+                                                    ومن أحياها فكأنما أحيا الناس جميعا
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="une journée ouverte de don de sang qui se tiendra au niveau du centre de collecte de dons situé au niveau de centre de transfusion sanguine CTS Blida. 
+                                                    " href="images/portfolio/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                            
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item5.jpg" alt="">
+                                                <h5>
+                                                    ساعدني اليوم لأكون اطار الغد
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Chaque septembre tous les enfants se préparent pour la rentrée ,un évènement qui leur tient à cœur mais malheureusement; certains n'ont pas les moyens d'achats surtout cette année avec el 3iid ,l'entrée scolaire est l'evenement de l'année pour eux... Chez certain on peut constater une tristesse dès qu'on mentionnne < affaires scolaire> Regardons autour de nous et essayons d'aider ces petits pour un debut motiviant..Pour un avenir meilleur.
+                                                  " href="images/portfolio/item5.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                            
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item91.jpg" alt="">
+                                                <h5>
+                                                    بعطائك رمضان أحلى
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/item91.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--/.row-->
+                            </div><!--/.item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item6.jpg" alt="">
+                                                <h5>
+                                                    خفف عزلتي وارسم بسمتي
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="la famille Oxyjeunes Blida qui souffle sa 5ème bougie d'œuvres de charité et de bienfaisance avec les enfants du village SOS de Draria et leur fait partager sa joie de voir sa famille s'agrandir au fil des ans.Au programme, une sortie culturelle et divertissante au Mémorial du martyr (Maqam E'chahid) et à la Casbah d'Alger (Dar Khedaoudj El Amia) pour leur faire découvrir l'histoire de notre patrie." href="images/portfolio/item6.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item7.jpg" alt="">
+                                                <h5>
+                                                    بالعقل كرمت يا انسان
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/item7.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                            
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive" src="images/portfolio/item4.jpg" alt="">
+                                                <h5>
+                                                    Se soigner autrement
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Le club scientifique Oxyjeunes -Blida- a décidé de se pencher sur le sujet des thérapies complémentaires et organise au niveau de l’auditorium de l’université de Blida -1- une journée de sensibilisation sous le slogan : Se soigner autrement pour nos jeunes étudiants ainsi que pour tous les éventuels curieux." href="images/portfolio/item4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--/.item-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.row-->
+        </div>
+    </section><!--/#recent-works-->
+  
+
+
+  <div class="sticky-container">
+    <ul class="sticky">
+        <li class="fb">
+            <img src="images/fb.png" width="32" height="32">
+            <p><a href="https://www.facebook.com/Oxyjeunes-Algerie-Blida--101426399987466/?ref=br_rs" target="_blank">Like Us on<br>Facebook</a></p>
+        </li>
+        <li class="tw">
+            <img src="images/twitter.png" width="32" height="32">
+            <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br>Tweeter</a></p>
+        </li>
+         <li class="yt">
+            <img src="images/youtube.png" width="32" height="32">
+            <p><a href="https://www.youtube.com/user/Oxyjeunblida" target="_blank">Follow Us on<br>Youtube</a></p>
+        </li>
+       
+    </ul>
+</div>
+</section>
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2017 Oxyjeunes Blida.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="index.html">Accueil</a></li>
+                        
+                        <li><a href="event.html">Evénements</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+    <script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 500) {
+			$('.sticky').addClass('show');
+		} else {
+			$('.sticky').removeClass('show');
+		}
+	});
+});
+
+</script>
+<script>
+  $("#item2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#recent-works").offset().top
+    }, 2000);
+});
+   $("#item1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#objectif").offset().top
+    }, 2000);
+});
+</script>
+
+</body>
+</html>

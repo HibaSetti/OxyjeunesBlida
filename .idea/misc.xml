@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="http://fonts.googleapis.com/css?family=Roboto:400,700,300" location="$PROJECT_DIR$" />
+    <resource url="https://fonts.googleapis.com/earlyaccess/droidarabickufi.css" location="$PROJECT_DIR$" />
+  </component>
+</project>
