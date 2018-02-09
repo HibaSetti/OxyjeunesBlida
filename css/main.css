@@ -749,6 +749,9 @@ section#objectif .span3:hover {
  -moz-box-sizing: border-box;
  box-sizing: border-box;
  }
+ .fb-page {
+   display: none;
+ }
 }
 .row-fluid .span3 {
  width: 23.076923076923077%;
