@@ -11,6 +11,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="sendemail.php">
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -35,22 +36,23 @@
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
 		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.10";
+		 
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 		jQuery(document).ready(function($) {
-  $(window).bind("load resize", function(){  
-  setTimeout(function() {
-  var container_width = $('#cont').width();    
-    $('#cont').html('<div class="fb-page" ' + 
-    'data-href="http://www.facebook.com/IniciativaAutoMat"' +
-    ' data-width="' + cont_width + '" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/IniciativaAutoMat"><a href="http://www.facebook.com/IniciativaAutoMat">Auto*Mat</a></blockquote></div></div>');
-    FB.XFBML.parse( );    
-  }, 100);  
-}); 
-});
+            $(window).bind("load resize", function(){  
+            setTimeout(function() {
+            var container_width = $('#cont').width();    
+                $('#cont').html('<div class="fb-page" ' + 
+                'data-href="http://www.facebook.com/IniciativaAutoMat"' +
+                ' data-width="' + cont_width + '" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/IniciativaAutoMat"><a href="http://www.facebook.com/IniciativaAutoMat">Auto*Mat</a></blockquote></div></div>');
+                FB.XFBML.parse( );    
+            }, 100);  
+            }); 
+            });
 		</script>
- 
+
+
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
         <div class="container">
             <div class="navbar-header">
