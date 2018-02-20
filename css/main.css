@@ -757,3 +757,15 @@ section#objectif .span3:hover {
  width: 23.076923076923077%;
  *width: 23.023731587561375%;
 }
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.thumbnail p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
